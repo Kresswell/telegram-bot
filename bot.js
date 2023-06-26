@@ -1,5 +1,5 @@
 /* Weem nya um ;v
-Script By MrDevils
+Script By Kresswell 
 
 kalau makai makai aja ngak usah nanyak apa itu apikey, apa itu rest api, apa itu api, kenapa ini nyenyenyenye 
 dah lah
@@ -21,7 +21,7 @@ instagram : adimas_shadoet
 */
 const Telegraf = require('telegraf')
 
-const bot = new Telegraf('1675749539:AAH46KNMRschhJDMuI5dclpp9FnB0znEaK4')
+const bot = new Telegraf('6100085419:AAHRd9boFwsjMzvgQt5zW4wzbqLsbKz1E3A')
 const axios = require('axios')
 
 /*********[ Apikey ]*********/
@@ -58,7 +58,7 @@ bot.hears('/', (ctx) => {
 })
 
 bot.hears('Kembali Ke Menu Utama', (ctx) => {
-    let priceMessage = '┏━━❉ DARK BOT ❉━━━┓\n┣⊱ Creator : MrDevils\n┣⊱ Whatsapp : 85939888897\n┣⊱ Github : github.com/adimas999\n┣⊱ IG : adimas_sahadoet\n┣⊱ Owner : MrDevils\n┗━━━━━━━━━━━━━━━━\n┏━━❉ *INFO* ❉━━━┓\n┣⊱ *Dilarang spam bot*\n┗━━━━━━━━━━━━━━━━\n┏━━⊱ *BOT MENU* ⊰━━┓\n┣⊱ /othermenu\n┣⊱ /makermenu\n┣⊱ /praymenu\n┣⊱ /funmenu\n┣⊱ /kerangmenu\n┣⊱ /mediamenu\n┣⊱ /animemenu\n┣⊱ /nsfwmenu\n┣⊱ /downloadmenu(error)\n┗━━━━━━━━━━━━━━━━';
+    let priceMessage = '┏━━❉ INFINITY HACK3R BOT ❉━━━┓\n┣⊱ Creator : KRESSWELL ┣⊱ Whatsapp : 254768153167\n┣⊱ Github : github.com/Kresswell\n┣⊱ Tg:@EscaliBud \n┣⊱ Owner : Kresswell \n┗━━━━━━━━━━━━━━━━\n┏━━❉ *INFO* ❉━━━┓\n┣⊱ *Dilarang spam bot*\n┗━━━━━━━━━━━━━━━━\n┏━━⊱ *BOT MENU* ⊰━━┓\n┣⊱ /othermenu\n┣⊱ /makermenu\n┣⊱ /praymenu\n┣⊱ /funmenu\n┣⊱ /kerangmenu\n┣⊱ /mediamenu\n┣⊱ /animemenu\n┣⊱ /nsfwmenu\n┣⊱ /downloadmenu(error)\n┗━━━━━━━━━━━━━━━━';
     ctx.deleteMessage();
     bot.telegram.sendMessage(ctx.chat.id, priceMessage,
     {
